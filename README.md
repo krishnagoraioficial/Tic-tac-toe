@@ -178,7 +178,3 @@ Built with ❤️ at IIT Madras
 text
 
 ***
-- ✅ **Portfolio showcase** (clear diagrams/metrics)
-- ✅ **Technical depth** (protocol specs/architecture)
-
-**Ready for production!** 🚀
