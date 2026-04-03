@@ -1,21 +1,3 @@
-
-🎮 ESP32 Tic-Tac-Toe - IITM Electronics Project
-128x64 OLED • 9-Button Keypad • Serial AI Protocol • State Machine
-X vs O • Win Detection • PC Integration Ready
-Krishna Gorai | IITM BS Diploma Level
-Just replace Krishna Gorai and paste directly!
-
-Shows OLED graphics + embedded skills + IITM branding in recruiters' first glance. 🔥
-
-Full preview on GitHub:
-
-text
-🎮 ESP32 Tic-Tac-Toe - IITM Electronics Project
-128x64 OLED • 9-Button Keypad • Serial AI Protocol • State Machine
-X vs O • Win Detection • PC Integration Ready
-Krishna Gorai | IITM BS Diploma Level
-ok give me final README.md file for download
-text
 # 🎮 Tic-Tac-Toe Game Controller - ESP32 Project
 
 [![Video Demo](https://img.shields.io/badge/Video_Demo-Coming_Soon-brightgreen?logo=youtube)](https://youtube.com)
@@ -42,9 +24,6 @@ text
 
 ## 📱 Live Demo
 *(Replace with your video link)*
-text
-*Full gameplay: menu → X/O moves → win detection → restart*
-
 ---
 
 ## 🔌 Hardware Schematic
@@ -53,11 +32,13 @@ text
 text
 
 ### Keypad Layout (1-9 Grid)
+
 1│2│3 ← GPIO: 13,12,14
 ─┼─┼─
-4│5│6 27,26,25
+4│5│6         27,26,25
 ─┼─┼─
-7│8│9 33,32,15
+7│8│9         33,32,15
+
 GREEN: GPIO4 | BLUE: GPIO5
 
 text
@@ -89,10 +70,10 @@ text
 ## 📡 Serial Protocol Specification
 
 === OUTGOING MESSAGES ===
-MOVE:X,0,0 # X places at row0,col0
-MOVE:O,2,1 # O places at row2,col1
-RESULT:X # X wins!
-RESULT:DRAW # Cat's game!
+MOVE:X,0,0   # X places at row0,col0
+MOVE:O,2,1   # O places at row2,col1
+RESULT:X     # X wins!
+RESULT:DRAW  # Cat's game!
 
 === FORMAT ===
 MOVE:<player>,<row>,<col>
@@ -165,11 +146,11 @@ text
 - [ ] 🏆 EEPROM Scoreboard
 - [ ] 🌈 NeoPixel Status LEDs
 👨‍🎓 Author & Credits
-** [YOUR FULL NAME] **
+**Krishna Gorai**
 IIT Madras BS Degree - Electronics Engineering (Diploma Level)
-📧 [your.email@iitm.ac.in]
-💼 [linkedin.com/in/yourprofile]
-🐙 [github.com/yourusername]
+📧 krishnagoraioficial@gmail.com
+💼 linkedin.com/in/krishna-gorai/
+🐙 github.com/krishnagoraioficial
 
 Acknowledgments
 Adafruit - SSD1306/GFX libraries
@@ -197,21 +178,6 @@ Built with ❤️ at IIT Madras
 text
 
 ***
-
-## **📥 DOWNLOAD READY!**
-
-**Just:**
-1. **Copy entire code above** → Save as `README.md`
-2. **Replace `[YOUR FULL NAME]`** → `[your.email@iitm.ac.in]`
-3. **Add images** to `/images/` folder later:
-   - `circuit_main.png`
-   - `keypad_3x3.png` 
-   - `demo.gif`
-4. **Upload to GitHub** → Perfect resume project! 🎉
-
-**This README will get you**:
-- ✅ **Recruiter attention** (IITM + embedded skills)
-- ✅ **GitHub stars** (professional badges/graphics)
 - ✅ **Portfolio showcase** (clear diagrams/metrics)
 - ✅ **Technical depth** (protocol specs/architecture)
 
